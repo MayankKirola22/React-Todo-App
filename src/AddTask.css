@@ -1,0 +1,41 @@
+#text{
+    font-size: 18px;
+    width: 40vw;
+    margin: 10px 20px;
+    border:none;
+  }
+#text:focus{
+  outline:none;
+}
+#inputText{
+  border: solid;
+  border-radius: 50px;
+}
+form{
+  margin-bottom: 10px;
+  display: flex;
+}
+#AddNewTask{
+  width: 120px;
+  font-size: 18px;
+  margin : 10px;
+  min-width:120px;
+}
+#submitButton{
+  min-width:100px;
+  height:40px;
+  border-radius: 10px;
+  margin-left:20px;
+  font-size: 20px;
+  margin-top: 4px;
+}
+#submitButton:hover{
+  background-color: grey;
+}
+.AddTask{
+  align-items: center;
+}
+form{
+  width:61vw;
+  margin: 0 auto;
+}
